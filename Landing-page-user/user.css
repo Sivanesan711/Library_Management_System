@@ -76,6 +76,12 @@ body
 	background-color: transparent !important;
 }
 
+.logout
+{
+	border: 1px solid orangered;
+	border-radius: 50px;
+}
+
 
 /*--------------------------
      Sticky navigation STARTS

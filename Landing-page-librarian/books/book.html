@@ -8,6 +8,7 @@
   <!--FavIcon-->
   <link rel="shortcut icon" href="../../img/logo.png">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/superhero/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="e-search.js"></script>
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -17,19 +18,20 @@
 <div class="container" style="margin:50px auto 30px auto;">
 	<div class="row">
 		<div class="col-md-12">
-			<input type="text" class="form-control search-game" placeholder="Search Book..."> </div>
+      <h5 onclick="exit()" style="float: right; margin-top: -40px; background-color: red; width: 50px; height: 25px; text-align: center; padding-top: 3px; border-radius: 40px; font-weight: bold; cursor: pointer;">Exit</h4>
+      <input type="text" class="form-control search-game" style="border-radius: 50px;" placeholder="Search Book...">
+    </div>
 		</div>
 	</div>
 </div>
 
 <div class="container">
-	<div class="row containerItems">
+	<div class="row containerItems" style="margin-left: 75px;">
 		<div data-filter="beroy knightmobile html accion" data-search="scientific immortal" class="col-12 col-sm-6 col-md-4" style="">
             <div class="card card-lg">
-
               <div class="card-img">
                 <a>
-                  <img src="../book-asset/1.jpg" class="card-img-top" alt="Vampire Cannon"> </a>
+                  <img src="../book-asset/1.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="Vampire Cannon"> </a>
                 <div class="badge badge-pc">SCIENCE</div>
               </div>
 
@@ -40,15 +42,15 @@
               </div>
 
             </div>
-		</div>
+		</div><br>
 
 
         <div data-search="western mahjong" class="col-12 col-sm-6 col-md-4">
             <div class="card card-lg">
 
-              <div class="card-img">
+              <div class="card-img" style="margin-top: -15px;">
                 <a>
-                  <img src="../book-asset/2.jpg" class="card-img-top" alt="western mahjong"> </a>
+                  <img src="../book-asset/2.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="western mahjong"> </a>
                 <div class="badge badge-pc">PUZZLE</div>
               </div>
 
@@ -59,24 +61,25 @@
               </div>
 
             </div>
-         </div>
+         </div><br>
 
           <div data-search="stick freak" class="col-12 col-sm-6 col-md-4">
             <div class="card card-lg">
 
-              <div class="card-img">
+              <div class="card-img" style="margin-top: -30px; margin-bottom: 20px;">
                 <a>
-                  <img src="../book-asset/3.jpg" class="card-img-top" alt="Stick Freak"> </a>
+                  <img src="../book-asset/3.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="Stick Freak"> </a>
                 <div class="badge badge-xbox-one">ARCADE</div>
               </div>
 
               <div class="card-block">
-                <h4 class="card-title">Stick Freak
+                <h4 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">
+                  Stick Freak
                 </h4>
               </div>
 
             </div>
-          </div>
+          </div><br>
 
 
           <div data-search="mahjong master 2 two" class="col-12 col-sm-6 col-md-4">
@@ -84,7 +87,7 @@
 
               <div class="card-img">
                 <a>
-                  <img src="../book-asset/4.jpg" class="card-img-top" alt="mahjong master 2"> </a>
+                  <img src="../book-asset/4.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="mahjong master 2"> </a>
                 <div class="badge badge-xbox-one">PUZZLE</div>
               </div>
 
@@ -94,14 +97,14 @@
               </div>
 
             </div>
-          </div>
+          </div><br>
 
 		<div data-search="martin war" class="col-12 col-sm-6 col-md-4">
             <div class="card card-lg">
 
               <div class="card-img">
                 <a>
-                  <img src="../book-asset/5.jpg" class="card-img-top" alt="7 x 7 ultimate"> </a>
+                  <img src="../book-asset/5.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="7 x 7 ultimate"> </a>
                 <div class="badge badge-xbox-one">PUZZLE</div>
               </div>
 
@@ -111,14 +114,65 @@
               </div>
 
             </div>
-          </div>
+          </div><br>
 
           <div data-search="jewel duel" class="col-12 col-sm-6 col-md-4">
             <div class="card card-lg">
 
               <div class="card-img">
                 <a>
-                  <img src="../book-asset/6.jpg" class="card-img-top" alt="jewel duel"> </a>
+                  <img src="../book-asset/6.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="jewel duel"> </a>
+                <div class="badge badge-xbox-one">PUZZLE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">Jewel Duel
+                </h4>
+              </div>
+
+            </div>
+          </div>
+
+          <div data-search="mahjong master 2 two" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="../book-asset/4.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="mahjong master 2"> </a>
+                <div class="badge badge-xbox-one">PUZZLE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">Mahjong Master 2
+                </h4>
+              </div>
+
+            </div>
+          </div><br>
+
+		<div data-search="martin war" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="../book-asset/5.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="7 x 7 ultimate"> </a>
+                <div class="badge badge-xbox-one">PUZZLE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">Martin War
+                </h4>
+              </div>
+
+            </div>
+          </div><br>
+
+          <div data-search="jewel duel" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="../book-asset/6.jpg" class="card-img-top" style="width: 200px; height: 300px;" alt="jewel duel"> </a>
                 <div class="badge badge-xbox-one">PUZZLE</div>
               </div>
 
@@ -154,5 +208,12 @@
   })();
 
 </script>
+
+<script>
+  function exit(){
+    location.replace("../../Landing-page-user/user.html")
+  }
+</script>
+
 </body>
 </html>

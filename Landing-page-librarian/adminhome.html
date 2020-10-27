@@ -153,16 +153,14 @@
                         </div><br>
                         <div class="member__form">
                              <form name="signup" action="" method="" style="text-align: center;">
-                                <i class="fa fa-user"></i><input type="text" name="firstname" style="height: 25px; width: 280px;" placeholder="First Name" required><br><br>
-                                <i class="fa fa-user"></i><input type="text" name="middlename" style="height: 25px; width: 280px;" placeholder="Middle Name" required><br><br>
-                                <i class="fa fa-user"></i><input type="text" name="lastname" style="height: 25px; width: 280px;" placeholder="Last Name" required><br><br>
-                                <i class="fa fa-calendar-o"></i><input type="date" style="color: black; height: 25px; width: 280px;" name="dob" placeholder="DD/MM/YYYY" required><br><br>
-                                <i class="fa fa-address-card"></i><input type="text" name="address" style="height: 25px; width: 280px;" placeholder="Address" required><br><br>
-                                <i class="fa fa-envelope"></i><input type="email" name="email" style="height: 25px; width: 280px;" placeholder="E-mail" required><br><br>
-                                <i class="fa fa-phone"></i><input type="text" name="phone" style="height: 25px; width: 280px;" placeholder="Phone" required><br><br>
-                                <i class="fa fa-user-circle-o"></i><input type="text" name="userid" style="height: 25px; width: 280px;" placeholder="USER ID" required><br><br>
-                                <i class="fa fa-key"></i><input type="password" name="password" style="height: 25px; width: 280px;" placeholder="Password" required><br><br>
-                                <button style="width: 150px; height: 25px; border-radius: 10px; color: white; background-color: white; color: black; font-weight: bold;">Add Member</button><br><br>
+                                <i class="fa fa-user"></i><input type="text" name="booktitle" style="height: 25px; width: 280px;" placeholder="BOOK TITLE" required><br><br>
+                                <i class="fa fa-user"></i><input type="text" name="isbn" style="height: 25px; width: 280px;" placeholder="ISBN CODE" required><br><br>
+                                <i class="fa fa-user"></i><input type="text" name="authorname" style="height: 25px; width: 280px;" placeholder="AUTHOR NAME" required><br><br>
+                                <i class="fa fa-calendar-o"></i><input type="text" name="bookcategory" style="color: black; height: 25px; width: 280px;" placeholder="BOOK CATEGORY" required><br><br>
+                                <i class="fa fa-calendar-o"></i><input type="text" name="publishyear" style="color: black; height: 25px; width: 280px;" placeholder="PUBLISHED YEAR" required><br><br>
+                                <i class="fa fa-address-card"></i><input type="file" name="file" style="height: 25px; width: 280px; color: white;" placeholder="Book File" required><br><br>
+                                <i class="fa fa-key"></i><input type="password" name="password" style="height: 25px; width: 280px;" placeholder="Admin Password" required><br><br>
+                                <button style="width: 150px; height: 25px; border-radius: 10px; color: white; background-color: rgb(27, 25, 25); color: white; font-weight: bold;">Add Book</button><br><br>
                             </form>
                         </div>
                     </div>
@@ -243,7 +241,9 @@
                             <h1 style="color: white;">Special Days</h1>
                         </div><br>
                         <div id="specialdays__offers">
-                             <!-- VIEW SPECIAL DAYS AND OFFERS -->
+                            <div class="calender-container" style="padding-left: 50px;">
+                                <iframe src="https://calendar.google.com/calendar/embed?src=siva0711997%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="450" frameborder="0" scrolling="yes"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
